@@ -1,0 +1,95 @@
+@media (max-width:900px)  {
+    .hmb i{
+        display: block;
+    }
+    .hmb{
+        width: 50%;
+        text-align: end;
+    }
+    .controls{
+        display: none;
+    }
+    .serch{
+        display: none;
+    }
+    .div{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .contact{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15%;
+    }
+    .contact h1{
+        font-size: 15px;
+    }
+    .contact button{
+        width: 100%;
+    }
+    .menue{
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .d1{
+        width: 30%;
+        margin: 3%;
+    }
+    .product{
+        flex-wrap: wrap;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .prods{
+        width: 25%;
+        margin: 5%;
+    }
+    .prod{
+        margin: 10%;
+    }
+    .mains{
+        width: 100%;
+    }
+    .nave{
+        width: 60%;
+    }
+}
+@media (max-width:675px){
+    .container{
+        height: 550vh;
+    }
+    .div{
+        height: 40%;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+    .div h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .div button{
+        width: 100%;
+    }
+    .mains{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .touch{
+        width: 80%;
+        margin-top: 2%;
+    }
+}
+@media (max-width:985px){
+    .mains{
+        width: 100%;
+    }
+}
